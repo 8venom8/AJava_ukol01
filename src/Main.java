@@ -27,7 +27,6 @@ public class Main {
             cena = cena.add(BigDecimal.valueOf(0.1));
               // operátor "+=" znamená: přičti ke stávající
               // hodnotě navíc 0.1
-
        }
        System.out.println(cena);
        // Má vypsat "1.0". Ale vypíše "0.9999" !!!
